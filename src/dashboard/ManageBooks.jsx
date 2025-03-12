@@ -6,7 +6,7 @@ const ManageBooks = () => {
   const [allBooks, setAllBooks] = useState([]);
 
   useEffect(() => {
-    fetch("https://setu-mern-server.onrender.com/all-books")
+    fetch("https://setu-mern-server-1.onrender.com/all-books")
       .then(res => {
         if (!res.ok) {
           throw new Error('Network response was not ok');

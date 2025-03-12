@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // react icons 
 import { FaStar } from "react-icons/fa";
 import { Avatar } from "flowbite-react";
-import proPic from "../assets/profile.jpg"
+import proPic from "../../public/assets/profile.jpg"
 
 // Import Swiper styles
 import "swiper/css";

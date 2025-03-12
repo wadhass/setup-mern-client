@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import bookPic from "../assets/awardbooks.png"
+import bookPic from "../../public/assets/awardbooks.png"
 
 const PromoBanner = () => {
   return (

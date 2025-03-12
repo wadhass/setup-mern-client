@@ -1,7 +1,7 @@
 import { Sidebar } from "flowbite-react";
 import { BiBuoy } from "react-icons/bi";
 import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
-import userImage from "../assets/profile.jpg"; 
+import userImage from "../../public/assets/profile.jpg"; 
 import { useContext } from "react";
 import { AuthContext } from "../contects/AuthProvider"; 
 
@@ -15,7 +15,7 @@ const SideBar = () => {
         href="/" 
         img={user?.photoURL || userImage} 
         imgAlt="User profile"
-        className="w-16 h-16"
+        className="w-16 h-16 rounded-full"
       >
         <p>
           {user?.displayName || "demo user"}
